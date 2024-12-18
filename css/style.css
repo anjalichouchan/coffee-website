@@ -403,8 +403,14 @@ html ::-webkit-scrollbar{
 
 #footer{
     width: 100%;
+    position: relative;
     background: #b2744c;
     margin-top: 50px;
+}
+.arrow{
+    position: absolute;
+    bottom: 2px;
+    z-index: 2;
 }
 .footer-logo img{
     width: 180px;
